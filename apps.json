@@ -5,7 +5,7 @@
   { "name": "Git", "id": "Git.Git" },
   { "name": "Spotify", "id": "Spotify.Spotify" },
   { "name": "Notepad++", "id": "Notepad++.Notepad++" },
-  { "name": "Epic Games", "id": "EpicGames.EpicGames" },
+  { "name": "Epic Games", "id": "EpicGames.EpicGamesLauncher" },
   { "name": "Discord", "id": "Discord.Discord" },
   { "name": "NordVPN", "id": "NordVPN.NordVPN" },
   { "name": "Microsoft Edge", "id": "Microsoft.Edge" },
