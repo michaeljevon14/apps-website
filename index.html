@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Essential Windows Apps Installer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+<body class="bg-gray-100 p-6 text-gray-800">
+  <div class="max-w-2xl mx-auto bg-white p-6 rounded-xl shadow">
+    <h1 class="text-2xl font-bold mb-4">🧰 Essential Windows Apps</h1>
+    <p class="mb-4">Select the apps you want to install, then generate the installer script.</p>
+    
+    <form id="appForm" class="space-y-2"></form>
+    
+    <button id="generateBtn" class="mt-6 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+      Generate Installer Script
+    </button>
+
+    <a id="downloadLink" class="hidden mt-4 inline-block text-green-700 underline" download="install_apps.bat">
+      Download install_apps.bat
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
