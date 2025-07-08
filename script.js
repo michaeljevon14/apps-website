@@ -25,12 +25,15 @@ function generateScript(selectedApps) {
 }
 
 function download(filename, content) {
-  const blob = new Blob([content], { type: 'text/plain' });
+  // Add UTF-8 BOM header to force Windows CMD to interpret encoding correctly
+  const bom = new Uint8Array([0xEF, 0xBB, 0xBF]);
+  const blob = new Blob([bom, content], { type: 'text/plain' });
   const url = URL.createObjectURL(blob);
   const a = document.getElementById('downloadLink');
   a.href = url;
   a.classList.remove('hidden');
 }
+
 
 document.getElementById('generateBtn').addEventListener('click', () => {
   const checked = Array.from(document.querySelectorAll('input[name="app"]:checked'));
