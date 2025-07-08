@@ -19,7 +19,7 @@
   { "name": "Adobe Acrobat Reader DC", "id": "Adobe.AcrobatReaderDC" },
   { "name": "Microsoft Office", "id": "Microsoft.Office" },
   { "name": "Java Runtime Environment", "id": "Oracle.JavaRuntimeEnvironment" },
-  { "name": "Python", "id": "Python.Python.3.13" },
+  { "name": "Python", "id": "Python.Python.3.12" },
   { "name": "Node.js", "id": "Nodejs.Nodejs" },
   { "name": "Docker Desktop", "id": "Docker.DockerDesktop" },
   { "name": "Postman", "id": "Postman.Postman" },
